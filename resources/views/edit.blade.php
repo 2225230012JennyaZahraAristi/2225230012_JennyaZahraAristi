@@ -11,7 +11,7 @@
     @endif
 
 <div class="kotak">
-    <h1 class="judul">Ubah Data Anggota</h1>
+    <h1 class="judul">Ubah Data Anggota Perpustakaan</h1>
     <form action="{{ route('perpus.update', $perpus->id) }}" method="POST">
         @csrf
         @method('PUT')

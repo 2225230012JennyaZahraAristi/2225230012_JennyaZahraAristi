@@ -11,7 +11,7 @@
     <h1>Selamat Datang Perpustakaan Universitas Treasure Maker</h1>
     </marquee>
 </div>
-    <h2 class="judul">Daftar Anggota</h2>
+    <h2 class="judul">Daftar Anggota Perpustakaan</h2>
 
     <a type="button" class="btn btn-success" href="{{ route('perpus.create') }}">Registrasi</a>
 
