@@ -1,0 +1,70 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins&display=swap);
+
+body{
+	font-family: 'Poppins', sans-serif;
+	background: hsl(189, 97%, 60%);
+}
+
+.text{
+    padding: 5px;
+}
+
+.judul{
+	text-align: center;
+	font-weight: normal;
+    font-size: 25px;
+	line-height: 40px;
+	border-radius: 5px 5px 0 0;
+	border-bottom: 1px solid #d5f0f3;
+	background: hsl(189, 97%, 60%);
+}
+ 
+.kotak{
+	margin: 30px auto 30px;
+	padding: 30px 20px;
+	position: relative;
+	max-width: 700px;
+	width: 100%;
+	background: #fff;
+	padding: 25px;
+	border-radius: 8px;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.form .column {
+	display: flex;
+	column-gap: 15px;
+}
+ 
+.form-label{
+	font-size: 11pt;
+}
+ 
+.form-control{
+	box-sizing : border-box;
+	width: 100%;
+	padding: 10px;
+	font-size: 11pt;
+	margin-bottom: 20px;
+}
+
+.tampil{
+    width: 700px;
+	background: #ffffff;
+	margin: 50px auto 30px;
+	padding: 30px 20px;
+}
+
+.card-body{
+    box-sizing : border-box;
+	width: 100%;
+	padding: 10px;
+	font-size: 11pt;
+	margin-bottom: 20px;
+}
+
+@media screen and (max-width: 500px) {
+  .kotak .column {
+    flex-wrap: wrap;
+  }
+}
